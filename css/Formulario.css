@@ -1,0 +1,129 @@
+*:focus{outline: none;}
+
+/*-----------------------TIPOGRAFIA-----------------------------*/
+
+body{
+    font: 14px/21px Arial;
+    color: #63e2d8;
+    background: #000000;
+    
+}
+
+.declara h2, .declara label{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.required_notification{font-size: 8px;}
+
+.declara ul{
+    width: 750px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0; padding: 0;
+}
+
+.declara li{
+    padding: 12px;
+    border-bottom: 1px solid #3a3eb8;
+    position: relative;
+}
+
+.declara li:first-child,
+.declara li:last-child{
+    border-bottom: 1px solid #3a3eb8;
+}
+
+.declara h2{
+    margin: 0;
+    display: inline;
+}
+
+.required_notification{ color: #d45252;
+    margin: 5px 0, 0, 0; display: inline;
+    float: right;
+}
+
+.declara label{
+    width: 150px; margin-top: 3px;
+    float: left; padding: 3px; 
+}
+
+.declara button{
+    margin-left: 156px;
+}
+
+.declara input{
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+    border: 1px solid #f8d137;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    padding-right: 30px;
+
+    transition: padding .25s;
+}
+
+.declara input:focus{
+    background: #121e79;
+    border: 1px solid rgb(245, 245, 245);
+    box-shadow: 0 0 3px #0ff;
+    padding-right: 70px;
+} 
+
+.form_hint{
+    background: #d45252;
+    border-radius: 3px;
+    color: #500202;
+    margin-left: 8px;
+    padding: 1px 6px;
+    z-index: 999;
+    position: absolute;
+    display: none;
+}
+
+.form_hint::before{
+    color: #d45252;
+    position: absolute;
+    top: 1px;
+    left: -6px;
+
+}
+
+.declara input:focus + .form_hint{
+    display: inline;
+}
+
+.declara input:required:valid + .form_hint{
+    background: #28921f;
+}
+
+.declara input:required:valid + .form_hint::before{
+    background: #28921f;
+}
+
+button.submit{
+    background: #7b20e4;
+    background: linear-gradient(top, #7b20e4, #8f4cdd);
+    border: 1px solid #7b20e4;
+    border-bottom: 1px solid #7b20e4;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 00 #9fd574;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -px 0 #396715;
+}
+
+button.submit:hover{
+    opacity: .85;
+    cursor: pointer;
+}
+
+button.submit:active{
+    box-shadow: 0 0 1px 5px #290256;
+    
+}
+

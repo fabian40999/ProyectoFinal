@@ -1,0 +1,439 @@
+@font-face {
+    font-family: spiderman;
+    src: url(../fonts/The\ Amazing\ Spider-Man.ttf);
+}
+
+@font-face {
+    font-family: movie;
+    src: url(../fonts/HOMOARAK.TTF);
+}
+
+html{box-sizing: border-box;}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(260deg, #980606 0%, #00273d 100%);
+
+}
+
+#body2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(260deg, #440230 0%, #005315 100%);
+
+}
+
+#body3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(260deg, #3b3b18 0%, #01270b 100%);
+
+}
+
+#body4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(260deg, #000 0%, #2e0bac 100%);
+
+}
+
+#body5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(260deg, rgb(33, 13, 214) 0%, #005315 100%);
+
+}
+
+#body6{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(260deg, #272727 0%, #000000 100%);
+
+}
+
+#margen{
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0, 121, 192, 0.563);
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#margen:hover{
+    background: #be00003f;
+}
+
+#img1{width: 100%;}
+
+#toogleNav{display: none;}
+
+#contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+input{
+    padding: 10px;
+    border: 0;
+}
+
+
+
+.info{
+    text-align: center;
+    background: rgba(21, 21, 21, 0.475);
+    padding: 10px;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 100;
+}
+
+.info1{
+    text-align: center;
+    /*background: rgba(21, 21, 21, 0.475);*/
+    /*padding: 10px;*/
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 100;
+}
+
+.info2{
+    
+    /*text-align: center;*/
+    background: rgba(21, 21, 21, 0);
+    /*padding: 10px;*/
+    margin: 30px 0;
+    color: #fff;
+    font-weight: 100;
+    
+    
+}
+
+
+.info3{
+    text-align: center;
+    /*background: rgba(21, 21, 21, 0.475);*/
+    /*padding: 10px;*/
+    margin: 60px 0;
+    color: #fff;
+    font-weight: 100;
+}
+
+.galeria{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    
+}
+
+.galeria img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    transition: 0.5s; 
+}
+    
+
+.info2{
+    padding: 0 250px;
+    top: 1200px;
+    left: 140px;
+    color: #fff;
+    font-weight: 1;
+    float: left;
+}
+
+
+
+#categoria3{
+    text-align: center;
+    background: rgba(21, 21, 21, 0.475);
+    padding: 10px;
+    margin: 10px 0;
+  
+    font-weight: 100;
+}
+
+#position1{
+    position: relative;
+    left: 0px;
+}
+
+#position2{
+    position: relative;
+    left: 100px;
+}
+
+#position3{
+    position: relative;
+    
+   
+    left: 200px;
+}
+
+
+
+#flex-nav ul{
+    border: 1px solid #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#flex-nav li{
+    flex: 3;
+}
+
+/*---------------------------------------------*/
+
+@media all and (max-width:1000px){
+    #flex-nav ul{flex-wrap: wrap;}
+
+    #flex-nav li{ flex: 1 1 50%;}
+}
+
+@media all and (max-width:500px){
+    #contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contenedor > * {order: 999;}
+
+    #flex-nav{order: 1;}
+    #toogleNav{display: block;}
+    #flex-nav ul{display: none;}
+
+    #flex-nav ul.open{display: flex;}
+
+    #info{order: 3;}
+    .registro{order: 4;}
+}
+
+#redes h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#sociales{
+    width: 350px; text-align: center;
+}
+
+#sociales li{
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+}
+
+ul{
+    margin: auto; 
+    list-style: none;
+}
+
+
+
+/*-------------------------------CARRUSEL-----------------------------------------------*/
+
+.carrusel{
+    position: relative;
+    width: 100%;
+    
+    display: flex;
+    border-radius: 1em;
+
+}
+
+.carrusel-container{
+    position: relative;
+   
+    overflow: hidden;
+    display: flex;
+    
+    margin-right: 50px;
+    border-radius: 1em;
+}
+
+.carrusel-text1{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    color: #fff;
+}
+
+.carrusel-text2{
+    position: absolute;
+    top: 120px;
+    left: 55px;
+    color: #fff;
+}
+
+.carrusel-text3{
+    position: absolute;
+    top: 120px;
+    left: 35px;
+    color: #fff;
+}
+
+.carrusel-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 1em;
+}
+.carrusel img{
+    opacity: 0.5;
+    border-radius: 1em;
+}
+
+.carrusel img:hover{
+    
+    opacity: 1;
+}
+
+.slides{
+    display: flex;
+    animation: carrusel 15s infinite;
+}
+
+.slide{
+    width: 80%;
+    flex: 0 0 105%;
+}
+
+
+
+
+@keyframes carrusel{
+    0%, 100%{transform: translateX(0%);}
+
+    25%{transform: translateX(-100%);}
+
+    50%{transform: translateX(-200%);}
+
+    75%{transform: translateX(-300%);}
+}
+
+
+
+.image-container{
+    display: flex;
+}
+
+.image-container div{
+    width: 200px;
+    height: 200px;
+    
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image1 {background-image: url(../Images/V1-2.png);}
+.image2 {background-image: url(../Images/V2-2.png);}
+.image3 {background-image: url(../Images/V3-2.png);}
+.image4 {background-image: url(../Images/V4-2.png);}
+.image5 {background-image: url(../Images/V5-2.png);}
+
+/*
+.image-container div:hover{
+    transform: scale(1.1);
+}
+*/
+
+.image-container .image1:hover{background-image: url(../Images/V1.png);}
+.image-container .image2:hover{background-image: url(../Images/V2.png);}
+.image-container .image3:hover{background-image: url(../Images/V3.png);}
+.image-container .image4:hover{background-image: url(../Images/V4.png);}
+.image-container .image5:hover{background-image: url(../Images/V5.png);}
+
+#image-spectacular{
+    transition: transform 0.6s ease-in-out;
+}
+
+#image-spectacular img:hover{
+    transform: scale(1.2);
+}
+
+
+
+/*----------------------------------------Galeria de comics------------------------------------*/
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    margin: 3em;
+}
+
+.gallery2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    margin: 3em;
+}
+
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1em;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3 ease;
+}
+
+.gallery-item:hover .overlay{
+    opacity: 1;
+}
+
+.description{
+    text-align: center;
+}
+
+.contenedorV{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+

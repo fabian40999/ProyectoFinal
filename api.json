@@ -1,0 +1,74 @@
+[
+    {
+        "precio": "80.00",
+        "id": 1,
+        "title": "Spidey Peluche",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/1.jpg"
+    },
+    {
+        "precio": "1750.00",
+        "id": 2,
+        "title": "Marvel's Spider-Man 2",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/2.jpg"
+    },
+    {
+        "precio": "1000.00",
+        "id": 3,
+        "title": "Spider-Man Homecoming",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/3.jpg"
+    },
+    {
+        "precio": "209.00",
+        "id": 4,
+        "title": "Spider-Man 3 Blu Ray",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/4.jpg"
+    },
+    {
+        "precio": "140.00",
+        "id": 5,
+        "title": "Kraven The Last Hunt",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/5.jpg"
+    },
+    {
+        "precio": "1320.00",
+        "id": 6,
+        "title": "Spider-Man 2002 Figura Toybiz",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/6.jpg"
+    },
+    {
+        "precio": "780.00",
+        "id": 7,
+        "title": "Venom Figura",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/7.jpg"
+    },
+    {
+        "precio": "1200.00",
+        "id": 8,
+        "title": "Marvel's Spider-Man 2 Figura",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/8.jpg"
+    },
+    {
+        "precio": "400.00",
+        "id": 9,
+        "title": "Ultimate Spider-Man 2005",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/9.jpg"
+    },
+    {
+        "precio": "42.00",
+        "id": 10,
+        "title": "Ultimate Spider-Man #38",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/10.jpg"
+    },
+    {
+        "precio": "42.00",
+        "id": 11,
+        "title": "Ultimate Spider-Man #60",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/11.jpg"
+    },
+    {
+        "precio": "150.00",
+        "id": 12,
+        "title": "Spider-Man Miles Morales Figura",
+        "thumbnailUrl": "https://fabianbetance.000webhostapp.com/Mercancia/12.jpg"
+    }
+]
